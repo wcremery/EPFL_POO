@@ -60,6 +60,9 @@
     <ClCompile Include="src\Spectator.cpp">
       <Filter>Source Files\exo2</Filter>
     </ClCompile>
+    <ClCompile Include="src\Point3D.cpp">
+      <Filter>Source Files\exo3</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Circle.h">
@@ -79,6 +82,9 @@
     </ClInclude>
     <ClInclude Include="include\Spectator.h">
       <Filter>Header Files\exo2</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Point3D.h">
+      <Filter>Header Files\exo3</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

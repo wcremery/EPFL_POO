@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\Point3D.cpp" />
     <ClCompile Include="src\Paper.cpp" />
     <ClCompile Include="src\Spectator.cpp" />
     <ClCompile Include="src\Assistant.cpp" />
@@ -154,6 +155,7 @@
     <ClInclude Include="include\Magician.h" />
     <ClInclude Include="include\Spectator.h" />
     <ClInclude Include="include\Paper.h" />
+    <ClInclude Include="include\Point3D.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
