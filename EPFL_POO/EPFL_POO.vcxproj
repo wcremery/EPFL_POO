@@ -139,13 +139,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\Paper.cpp" />
+    <ClCompile Include="src\Spectator.cpp" />
+    <ClCompile Include="src\Assistant.cpp" />
+    <ClCompile Include="src\Magician.cpp" />
     <ClCompile Include="src\Coord.cpp" />
     <ClCompile Include="src\Circle.cpp" />
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\Assistant.h" />
     <ClInclude Include="include\Coord.h" />
     <ClInclude Include="include\Circle.h" />
+    <ClInclude Include="include\Magician.h" />
+    <ClInclude Include="include\Spectator.h" />
+    <ClInclude Include="include\Paper.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
