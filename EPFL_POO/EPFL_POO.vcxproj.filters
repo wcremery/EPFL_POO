@@ -63,6 +63,9 @@
     <ClCompile Include="src\Point3D.cpp">
       <Filter>Source Files\exo3</Filter>
     </ClCompile>
+    <ClCompile Include="src\Triangle.cpp">
+      <Filter>Source Files\exo4</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Circle.h">
@@ -85,6 +88,9 @@
     </ClInclude>
     <ClInclude Include="include\Point3D.h">
       <Filter>Header Files\exo3</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Triangle.h">
+      <Filter>Header Files\exo4</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

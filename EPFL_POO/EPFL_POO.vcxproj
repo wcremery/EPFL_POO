@@ -147,6 +147,7 @@
     <ClCompile Include="src\Coord.cpp" />
     <ClCompile Include="src\Circle.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Triangle.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Assistant.h" />
@@ -156,6 +157,7 @@
     <ClInclude Include="include\Spectator.h" />
     <ClInclude Include="include\Paper.h" />
     <ClInclude Include="include\Point3D.h" />
+    <ClInclude Include="include\Triangle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

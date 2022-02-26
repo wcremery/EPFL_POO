@@ -1,6 +1,21 @@
 #include "../include/Point3D.h"
 #include <iostream>
 
+double Point3D::x() const
+{
+	return x_;
+}
+
+double Point3D::y() const
+{
+	return y_;
+}
+
+double Point3D::z() const
+{
+	return z_;
+}
+
 void Point3D::init(double const& x, double const& y, double const& z)
 {
 	this->x_ = x;
