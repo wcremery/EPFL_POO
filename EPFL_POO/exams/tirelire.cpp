@@ -20,9 +20,9 @@ public:
     double calculerSolde(double const& budget) const;
 };
 
- /*******************************************
-  * Ne rien modifier après cette ligne.
-  *******************************************/
+/*******************************************
+ * Ne rien modifier après cette ligne.
+ *******************************************/
 
 int main()
 {
@@ -75,7 +75,7 @@ double Tirelire::getMontant() const
     return montant_;
 }
 
-void Tirelire::afficher() const 
+void Tirelire::afficher() const
 {
     if (montant_ == 0) { std::cout << "Vous etes sans le sou."; }
     else { std::cout << "Vous avez : " << montant_ << " euros dans votre tirelire"; }
@@ -117,6 +117,6 @@ bool Tirelire::montant_suffisant(double const& budget, double& solde)
 double Tirelire::calculerSolde(double const& budget) const
 {
     if (budget < 1) return montant_;
-    
+
     return montant_ - budget;
 }

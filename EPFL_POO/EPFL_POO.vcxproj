@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="exams\tirelire.cpp" />
     <ClCompile Include="src\Point3D.cpp" />
     <ClCompile Include="src\Paper.cpp" />
     <ClCompile Include="src\Spectator.cpp" />

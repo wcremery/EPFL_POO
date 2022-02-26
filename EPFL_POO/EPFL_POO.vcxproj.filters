@@ -66,6 +66,9 @@
     <ClCompile Include="src\Triangle.cpp">
       <Filter>Source Files\exo4</Filter>
     </ClCompile>
+    <ClCompile Include="exams\tirelire.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Circle.h">
