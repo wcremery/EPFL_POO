@@ -28,9 +28,9 @@ double Triangle::computeDistance(Point3D const& v1, Point3D const& v2) const
 	return (
 		std::sqrt(
 			((v1.x() - v2.x()) * (v1.x() - v2.x()) +
-			((v1.y() - v2.y()) * (v1.y() - v2.y())) +
-			((v1.z() - v2.z()) * (v1.z() - v2.z())))
-			)
+				((v1.y() - v2.y()) * (v1.y() - v2.y())) +
+				((v1.z() - v2.z()) * (v1.z() - v2.z())))
+		)
 		);
 }
 
@@ -57,10 +57,7 @@ bool Triangle::isIsoceles() const
 		distances[i] = computeDistance(vertices[i], vertices[((i + 1) % (vertices.size() - 1))]);
 	}
 
-	if (distances[0] == distances[1]
+	return (distances[0] == distances[1]
 		|| distances[0] == distances[2]
-		|| distances[1] == distances[2]) {
-		return true;
-	}
-	else { return false; }
+		|| distances[1] == distances[2]);
 }
