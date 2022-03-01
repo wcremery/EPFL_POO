@@ -37,6 +37,33 @@
     <Filter Include="Source Files\exo4">
       <UniqueIdentifier>{d662ba9d-79d8-45e7-b7b0-fc636bbbaac7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\exo5">
+      <UniqueIdentifier>{38810b61-ab9e-48d7-9e44-cd4947d39fb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\exo5">
+      <UniqueIdentifier>{1eb5189f-796e-45fa-9732-eccd29f8284f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\exam1">
+      <UniqueIdentifier>{ca5c7b63-cfa4-49a9-9c1b-7b68b119ac85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\exo6">
+      <UniqueIdentifier>{ceff85e1-4ec8-4cc9-a80c-b2030748159f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\exo6">
+      <UniqueIdentifier>{8a3b8d79-99db-4192-b7bd-f61c875ae191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\exo7">
+      <UniqueIdentifier>{79f70b8d-8c48-4d02-8dc5-0e0bba04cf37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\exo8">
+      <UniqueIdentifier>{2f984646-9d10-4f93-ad6d-e0d45004f2ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\exo7">
+      <UniqueIdentifier>{9056a98d-9a8f-4b30-8f74-31c3b6ef91d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\exo8">
+      <UniqueIdentifier>{c214be5d-1799-4787-ac49-51f1f0a41e92}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Circle.cpp">
@@ -66,8 +93,8 @@
     <ClCompile Include="src\Triangle.cpp">
       <Filter>Source Files\exo4</Filter>
     </ClCompile>
-    <ClCompile Include="exams\tirelire.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\Apero.cpp">
+      <Filter>Source Files\exo5</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -94,6 +121,9 @@
     </ClInclude>
     <ClInclude Include="include\Triangle.h">
       <Filter>Header Files\exo4</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Apero.h">
+      <Filter>Header Files\exo5</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
