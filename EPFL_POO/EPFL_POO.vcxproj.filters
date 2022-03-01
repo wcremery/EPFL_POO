@@ -96,6 +96,9 @@
     <ClCompile Include="src\Apero.cpp">
       <Filter>Source Files\exo5</Filter>
     </ClCompile>
+    <ClCompile Include="src\Fleur.cpp">
+      <Filter>Source Files\exo6</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Circle.h">
@@ -124,6 +127,9 @@
     </ClInclude>
     <ClInclude Include="include\Apero.h">
       <Filter>Header Files\exo5</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Fleur.h">
+      <Filter>Header Files\exo6</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
