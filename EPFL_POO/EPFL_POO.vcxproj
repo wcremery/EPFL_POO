@@ -139,11 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\CompteCourant.cpp" />
-    <ClCompile Include="src\CompteEpargne.cpp" />
-    <ClCompile Include="src\Client.cpp" />
-    <ClCompile Include="src\Compte.cpp" />
-    <ClCompile Include="src\Banque.cpp" />
+    <ClCompile Include="src\Achat.cpp" />
+    <ClCompile Include="src\Caddie.cpp" />
+    <ClCompile Include="src\Caisse.cpp" />
+    <ClCompile Include="src\Article.cpp" />
     <ClCompile Include="src\Fleur.cpp" />
     <ClCompile Include="src\Apero.cpp" />
     <ClCompile Include="src\Point3D.cpp" />
@@ -157,11 +156,10 @@
     <ClCompile Include="src\Triangle.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\CompteCourant.h" />
-    <ClInclude Include="include\CompteEpargne.h" />
-    <ClInclude Include="include\Client.h" />
-    <ClInclude Include="include\Compte.h" />
-    <ClInclude Include="include\Banque.h" />
+    <ClInclude Include="include\Achat.h" />
+    <ClInclude Include="include\Caddie.h" />
+    <ClInclude Include="include\Caisse.h" />
+    <ClInclude Include="include\Article.h" />
     <ClInclude Include="include\Fleur.h" />
     <ClInclude Include="include\Apero.h" />
     <ClInclude Include="include\Assistant.h" />

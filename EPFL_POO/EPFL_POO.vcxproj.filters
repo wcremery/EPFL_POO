@@ -99,20 +99,17 @@
     <ClCompile Include="src\Fleur.cpp">
       <Filter>Source Files\exo6</Filter>
     </ClCompile>
-    <ClCompile Include="src\Banque.cpp">
-      <Filter>Source Files\exo7</Filter>
+    <ClCompile Include="src\Article.cpp">
+      <Filter>Source Files\exo8</Filter>
     </ClCompile>
-    <ClCompile Include="src\Client.cpp">
-      <Filter>Source Files\exo7</Filter>
+    <ClCompile Include="src\Caddie.cpp">
+      <Filter>Source Files\exo8</Filter>
     </ClCompile>
-    <ClCompile Include="src\Compte.cpp">
-      <Filter>Source Files\exo7</Filter>
+    <ClCompile Include="src\Caisse.cpp">
+      <Filter>Source Files\exo8</Filter>
     </ClCompile>
-    <ClCompile Include="src\CompteCourant.cpp">
-      <Filter>Source Files\exo7</Filter>
-    </ClCompile>
-    <ClCompile Include="src\CompteEpargne.cpp">
-      <Filter>Source Files\exo7</Filter>
+    <ClCompile Include="src\Achat.cpp">
+      <Filter>Source Files\exo8</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -146,20 +143,17 @@
     <ClInclude Include="include\Fleur.h">
       <Filter>Header Files\exo6</Filter>
     </ClInclude>
-    <ClInclude Include="include\Banque.h">
-      <Filter>Header Files\exo7</Filter>
+    <ClInclude Include="include\Article.h">
+      <Filter>Header Files\exo8</Filter>
     </ClInclude>
-    <ClInclude Include="include\Client.h">
-      <Filter>Header Files\exo7</Filter>
+    <ClInclude Include="include\Caddie.h">
+      <Filter>Header Files\exo8</Filter>
     </ClInclude>
-    <ClInclude Include="include\Compte.h">
-      <Filter>Header Files\exo7</Filter>
+    <ClInclude Include="include\Caisse.h">
+      <Filter>Header Files\exo8</Filter>
     </ClInclude>
-    <ClInclude Include="include\CompteCourant.h">
-      <Filter>Header Files\exo7</Filter>
-    </ClInclude>
-    <ClInclude Include="include\CompteEpargne.h">
-      <Filter>Header Files\exo7</Filter>
+    <ClInclude Include="include\Achat.h">
+      <Filter>Header Files\exo8</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
