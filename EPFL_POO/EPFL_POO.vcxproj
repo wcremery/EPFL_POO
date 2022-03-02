@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="exams\labo.cpp" />
+    <ClCompile Include="exams\biblio.cpp" />
     <ClCompile Include="src\Achat.cpp" />
     <ClCompile Include="src\Caddie.cpp" />
     <ClCompile Include="src\Caisse.cpp" />
