@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="exams\labo.cpp" />
     <ClCompile Include="src\Achat.cpp" />
     <ClCompile Include="src\Caddie.cpp" />
     <ClCompile Include="src\Caisse.cpp" />
@@ -152,7 +153,6 @@
     <ClCompile Include="src\Magician.cpp" />
     <ClCompile Include="src\Coord.cpp" />
     <ClCompile Include="src\Circle.cpp" />
-    <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\Triangle.cpp" />
   </ItemGroup>
   <ItemGroup>

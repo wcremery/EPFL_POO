@@ -64,6 +64,9 @@
     <Filter Include="Header Files\exo8">
       <UniqueIdentifier>{c214be5d-1799-4787-ac49-51f1f0a41e92}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\exam2">
+      <UniqueIdentifier>{087ec1a9-0290-4a07-a69a-cc120f41ff1b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Circle.cpp">
@@ -76,9 +79,6 @@
       <Filter>Source Files\exo2</Filter>
     </ClCompile>
     <ClCompile Include="src\Magician.cpp">
-      <Filter>Source Files\exo2</Filter>
-    </ClCompile>
-    <ClCompile Include="src\main.cpp">
       <Filter>Source Files\exo2</Filter>
     </ClCompile>
     <ClCompile Include="src\Paper.cpp">
@@ -110,6 +110,9 @@
     </ClCompile>
     <ClCompile Include="src\Achat.cpp">
       <Filter>Source Files\exo8</Filter>
+    </ClCompile>
+    <ClCompile Include="exams\labo.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
