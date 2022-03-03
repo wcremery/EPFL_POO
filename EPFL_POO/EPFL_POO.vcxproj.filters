@@ -67,6 +67,9 @@
     <Filter Include="Source Files\exam2">
       <UniqueIdentifier>{087ec1a9-0290-4a07-a69a-cc120f41ff1b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\tutoS3">
+      <UniqueIdentifier>{57f16c44-8772-422a-872e-35f9809526c3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Circle.cpp">
@@ -111,8 +114,11 @@
     <ClCompile Include="src\Achat.cpp">
       <Filter>Source Files\exo8</Filter>
     </ClCompile>
-    <ClCompile Include="exams\biblio.cpp">
+    <ClCompile Include="src\main.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Polynome.cpp">
+      <Filter>Source Files\tutoS3</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

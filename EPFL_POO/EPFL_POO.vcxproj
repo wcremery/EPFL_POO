@@ -139,13 +139,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="exams\biblio.cpp" />
+    <ClCompile Include="src\Polynome.cpp" />
     <ClCompile Include="src\Achat.cpp" />
     <ClCompile Include="src\Caddie.cpp" />
     <ClCompile Include="src\Caisse.cpp" />
     <ClCompile Include="src\Article.cpp" />
     <ClCompile Include="src\Fleur.cpp" />
     <ClCompile Include="src\Apero.cpp" />
+    <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\Point3D.cpp" />
     <ClCompile Include="src\Paper.cpp" />
     <ClCompile Include="src\Spectator.cpp" />
