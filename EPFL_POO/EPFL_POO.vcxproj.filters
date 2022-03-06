@@ -22,17 +22,11 @@
     <Filter Include="Header Files\exo2">
       <UniqueIdentifier>{c834bd13-9210-4f23-bc24-5af1add5b04f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\exo3">
-      <UniqueIdentifier>{018cc913-fc07-477e-ab9b-1a6163c8536e}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\exo4">
       <UniqueIdentifier>{74122020-bad0-4e45-a2bc-7bd82efc9855}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\exo2">
       <UniqueIdentifier>{1e4aad9f-7cf7-41f4-9f12-e7b69d5d596c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\exo3">
-      <UniqueIdentifier>{4ca3bee2-a9f2-465e-8de1-06c7bb361910}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\exo4">
       <UniqueIdentifier>{d662ba9d-79d8-45e7-b7b0-fc636bbbaac7}</UniqueIdentifier>
@@ -67,6 +61,24 @@
     <Filter Include="Source Files\exam2">
       <UniqueIdentifier>{087ec1a9-0290-4a07-a69a-cc120f41ff1b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\exo3-9">
+      <UniqueIdentifier>{018cc913-fc07-477e-ab9b-1a6163c8536e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\exo3-9">
+      <UniqueIdentifier>{4ca3bee2-a9f2-465e-8de1-06c7bb361910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\exo10">
+      <UniqueIdentifier>{369627f9-b37f-44db-af59-d54d98d67ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\exo10">
+      <UniqueIdentifier>{225e08ef-1da1-4be0-8338-2e670aa176f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\exo11">
+      <UniqueIdentifier>{0bcb30d3-65de-4f12-8a15-21cf4cc6b5e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\exo11">
+      <UniqueIdentifier>{909c83e9-b5ae-4980-b216-87a84f4acd06}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Circle.cpp">
@@ -88,7 +100,7 @@
       <Filter>Source Files\exo2</Filter>
     </ClCompile>
     <ClCompile Include="src\Point3D.cpp">
-      <Filter>Source Files\exo3</Filter>
+      <Filter>Source Files\exo3-9</Filter>
     </ClCompile>
     <ClCompile Include="src\Triangle.cpp">
       <Filter>Source Files\exo4</Filter>
@@ -114,6 +126,9 @@
     <ClCompile Include="src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\Complexe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Circle.h">
@@ -135,7 +150,7 @@
       <Filter>Header Files\exo2</Filter>
     </ClInclude>
     <ClInclude Include="include\Point3D.h">
-      <Filter>Header Files\exo3</Filter>
+      <Filter>Header Files\exo3-9</Filter>
     </ClInclude>
     <ClInclude Include="include\Triangle.h">
       <Filter>Header Files\exo4</Filter>
@@ -157,6 +172,9 @@
     </ClInclude>
     <ClInclude Include="include\Achat.h">
       <Filter>Header Files\exo8</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Complexe.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
