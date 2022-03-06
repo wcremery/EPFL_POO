@@ -19,7 +19,7 @@ void Triangle::init()
 		std::cout << "z: ";
 		std::cin >> posZ;
 
-		vertices[i].init(posX, posY, posZ);
+		vertices[i] = Point3D(posX, posY, posZ);
 	}
 }
 

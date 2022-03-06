@@ -139,7 +139,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\Polynome.cpp" />
     <ClCompile Include="src\Achat.cpp" />
     <ClCompile Include="src\Caddie.cpp" />
     <ClCompile Include="src\Caisse.cpp" />

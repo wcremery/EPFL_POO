@@ -1,5 +1,4 @@
 #include "../include/Point3D.h"
-#include <iostream>
 
 double Point3D::x() const
 {
@@ -16,16 +15,11 @@ double Point3D::z() const
 	return z_;
 }
 
-void Point3D::init(double const& x, double const& y, double const& z)
+Point3D::Point3D(double const& x, double const& y, double const& z)
 {
 	this->x_ = x;
 	this->y_ = y;
 	this->z_ = z;
-}
-
-void Point3D::display() const
-{
-	std::cout << "(" << x_ << ", " << y_ << ", " << z_ << ")" << std::endl;
 }
 
 bool Point3D::compare(Point3D const& otherPoint) const
@@ -35,4 +29,11 @@ bool Point3D::compare(Point3D const& otherPoint) const
 	if (z_ != otherPoint.z_) { return false; }
 
 	return true;
+}
+
+std::ostream& operator<<(std::ostream& out, Point3D point3D)
+{
+	out << "(" << point3D.x() << ", " << point3D.y() << ", " << point3D.z() << ")";
+
+	return out;
 }
